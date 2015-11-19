@@ -1,4 +1,20 @@
+// users show page styles
+
+.user-show-avatar {
+    height: 128px;
+    width: 128px;
+    
+}
+
 .job-title-icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #2e6da4;
+    border-radius: 4px;
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
 
 }
 
@@ -15,7 +31,17 @@
     border-color: silver;
 }
 
+// user index page styles
+
+.user-index-avatar {
+    border-radius: 50%;
+}
+
 .well.contact-info {
     background-color: #5bc0de;
     border-color: #46b8da;
+}
+
+.well.white-bg {
+    background-color: white;
 }
